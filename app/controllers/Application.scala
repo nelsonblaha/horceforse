@@ -13,4 +13,8 @@ object Application extends Controller {
     Ok(views.html.crypto.render())
   }
 
+  def calendar = Action {
+    Ok(views.html.calendar.render())
+  }
+
 }
