@@ -92,4 +92,12 @@ $(document).ready(function(){
     //    console.log(bad(element.text()));
     //}, 1000);
 
+    window.setInterval(function(){
+        var color = '#' + (function co(lor){   return (lor +=
+                [0,1,2,3,4,5,6,7,8,9,'a','b','c','d','e','f'][Math.floor(Math.random()*16)])
+            && (lor.length == 6) ?  lor : co(lor); })('');
+        $('#controls-wrapper').css("background-color", color);
+        $('h1').css("color", color);
+    }, 1000)
+
 });
