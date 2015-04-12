@@ -1,0 +1,13 @@
+h1 {
+    text-align: center;
+}
+
+div#upfront img {
+    max-width: 33%;
+    padding:10px;
+}
+
+div#links {
+    font-size:1em;
+    text-align: center;
+}

@@ -1,41 +1,31 @@
 @(message: String)
 
-@main("Welcome to Play") {
+@main("Horce Forse") {
 
-    <a href='https://github.com/nelsonblaha/horceforse' style='position:fixed;padding:5px 45px;width:128px;top:50px;right:-50px;-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-ms-transform:rotate(45deg);transform:rotate(45deg);box-shadow:0 0 0 3px #f6c304, 0 0 20px -3px rgba(0, 0, 0, 0.5);text-shadow:0 0 0 #ffffff, 0 0 5px rgba(0, 0, 0, 0.3);background-color:#f6c304;color:#ffffff;font-size:13px;font-family:sans-serif;text-decoration:none;font-weight:bold;border:2px dotted #ffffff;-webkit-backface-visibility:hidden;letter-spacing:.5px;'>Forse us on Thubbubs</a>
+    @*<a href='https://github.com/nelsonblaha/horceforse' style='position:fixed;padding:5px 45px;width:128px;top:50px;right:-50px;-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-ms-transform:rotate(45deg);transform:rotate(45deg);box-shadow:0 0 0 3px #f6c304, 0 0 20px -3px rgba(0, 0, 0, 0.5);text-shadow:0 0 0 #ffffff, 0 0 5px rgba(0, 0, 0, 0.3);background-color:#f6c304;color:#ffffff;font-size:13px;font-family:sans-serif;text-decoration:none;font-weight:bold;border:2px dotted #ffffff;-webkit-backface-visibility:hidden;letter-spacing:.5px;'>Forse us on Thubbubs</a>*@
 
-    <h1>Good morning horce f8oeas wabpages Trái Bơ</h1>
+    <h1>Trái Bơ</h1>
 
-    <div id="links" style="font-size:4em">
-        <a href="/calendar">
-            <img src="/assets/images/pretty_cow.jpg" alt="Facebook"/>
-        </a>
-
-        <a href="http://traibo.bandcamp.com">
-            <img src="/assets/images/sigil.jpg" alt="Bandcamp"/>
-        </a>
-
-        <a href="/crypto">
-            <div style="width:100px; height:300px; float:left;"></div>
-            <img src="/assets/images/jackie_thumb.jpg" style="max-height:240px; padding-top:100px;" alt="yes"/>
-        </a>
-
-        <a style="margin-left:-120px;" href="/crypto">hamstamp!</a>
-
-        <iframe src="https://www.google.com/calendar/embed?src=mttl8smm9t5p3ip11jmen19flk%40group.calendar.google.com&ctz=America/Chicago" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-
-        <div>
-            <a href="https://www.facebook.com/TraiBoband">facebook.</a>
+    <div id="links">
+        <div id="calendar">
+            <a href="/calendar">Calendar</a>
         </div>
-
-        <div>
-            <a href="http://traibo.bandcamp.com">bandcamp.</a>
+        <div id="music">
+            <span class="glyphicon glyphicon-music" aria-hidden="true"></span>
+            <a href="http://traibo.bandcamp.com">Bandcamp</a> -
+            <a href="https://soundcloud.com/traiboband">Soundcloud</a>
+            <span class="glyphicon glyphicon-music" aria-hidden="true"></span>
         </div>
-
-        <div>
-            <a href="https://github.com/nelsonblaha/horceforse/issues">internet request.</a>
-        </div>
+        <a href="https://www.facebook.com/TraiBoband">Facebook</a> -
+        <a href="https://twitter.com/traiboband">Twitter</a> -
+        <a href="/crypto">Crypto</a>
     </div>
 
-    <iframe id="soundcloud-player" width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/10783164&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+    <div id="upfront">
+        <img id="performing" src="" alt=""/>
+        <img id="showposters" src="" alt=""/>
+        <img id="other" src="" alt=""/>
+    </div>
+
+
 }
