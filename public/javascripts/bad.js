@@ -3,6 +3,14 @@ Array.prototype.randomElement = function () {
 }
 
 $(document).ready(function(){
+    var bad = function(text) {
+      var pairs = [
+        ["o", "ö"]
+      ];
+      var pear = pairs.randomElement();
+      return text.replace(pear[0], pear[1]);
+    };
+
     var performingImages = ["420_house.jpg",
                             "adam_yells.jpg",
                             "colorado_preshow.jpg",
@@ -10,7 +18,8 @@ $(document).ready(function(){
                             "in_a_row.jpg",
                             "retro.jpg",
                             "zeta_cello.jpg",
-                            "adam_weirdmouth.jpg"];
+                            "adam_weirdmouth.jpg",
+                            "observer_2bd.jpg"];
 
     var posterImages = ["cleanup.jpg",
                         "gorilla.jpg",
@@ -73,5 +82,14 @@ $(document).ready(function(){
     window.setInterval(function(){
         changeRandomPane();
     }, 5000);
+
+    //window.setInterval(function(){
+    //    var count = $("div#links").find('a').length;
+    //    var i = Math.floor((Math.random() * count) + 1);
+    //    var element = $("div#links").find("a:nth-of-type("+i+")");
+    //    console.log("text: "+element.text());
+    //    //element.text(bad(element.text()));
+    //    console.log(bad(element.text()));
+    //}, 1000);
 
 });

@@ -11,10 +11,14 @@
             <a href="/calendar">Calendar</a>
         </div>
         <div id="music">
-            <span class="glyphicon glyphicon-music" aria-hidden="true"></span>
-            <a href="http://traibo.bandcamp.com">Bandcamp</a> -
-            <a href="https://soundcloud.com/traiboband">Soundcloud</a>
-            <span class="glyphicon glyphicon-music" aria-hidden="true"></span>
+            @for(n <- 1 to 3) {
+                <span class="glyphicon glyphicon-music" aria-hidden="true"></span>
+            }
+                <a href="http://traibo.bandcamp.com">Bandcamp</a> -
+                <a href="https://soundcloud.com/traiboband">Soundcloud</a>
+            @for(n <- 1 to 3) {
+                <span class="glyphicon glyphicon-music" aria-hidden="true"></span>
+            }
         </div>
         <a href="https://www.facebook.com/TraiBoband">Facebook</a> -
         <a href="https://twitter.com/traiboband">Twitter</a> -
