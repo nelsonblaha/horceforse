@@ -46,6 +46,14 @@ $(document).ready(function(){
         randomImageChange("other", otherImages);
     };
 
+    var randomCss = function(id){
+        var attributes = ["margin-top", "margin-right", "width", "height", "left", "right"];
+        var value = Math.floor((Math.random() * 500));
+        var i = Math.floor((Math.random() * attributes.length));
+        console.log("changing "+attributes[i]);
+        ("img#"+id).attr(attributes[i], value);
+    };
+
     var changeRandomPane = function(){
         var i = Math.floor((Math.random() * 3));
         console.log(i);
@@ -57,6 +65,7 @@ $(document).ready(function(){
         var pane = panes[i];
         console.log(pane);
         randomImageChange(pane[0], pane[1]);
+        randomCss(pane[0]);
     };
 
     changeAll();
