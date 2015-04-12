@@ -65,7 +65,7 @@ $(document).ready(function(){
         var pane = panes[i];
         console.log(pane);
         randomImageChange(pane[0], pane[1]);
-        randomCss(pane[0]);
+        //randomCss(pane[0]);
     };
 
     changeAll();
