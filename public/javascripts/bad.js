@@ -19,7 +19,8 @@ $(document).ready(function(){
                             "retro.jpg",
                             "zeta_cello.jpg",
                             "adam_weirdmouth.jpg",
-                            "pump_setlist.jpg"];
+                            "pump_setlist.jpg",
+                            "different_weekend"];
 
     var posterImages = ["cleanup.jpg",
                         "gorilla.jpg",
