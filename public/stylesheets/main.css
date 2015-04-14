@@ -1,3 +1,8 @@
+div#header {
+    padding-top:3%;
+    padding-bottom:3%;
+}
+
 h1 {
     text-align: center;
     font-size: 8em!important;
@@ -7,8 +12,14 @@ div#links {
     font-size: 3em!important;
 }
 
+div#upfront {
+    padding-left:10%;
+    padding-right:10%;
+}
+
 div#upfront div {
     text-align: center;
+    max-height:20%;
 }
 
 div#upfront div img {
@@ -16,6 +27,8 @@ div#upfront div img {
     max-width: 100%;
     margin-left: auto;
     margin-right: auto;
+    padding:2em;
+    max-height: 500px;
 }
 
 div#links {
