@@ -1,15 +1,19 @@
-<html>
+@main("Horce Forse") {
+
     <head>
         <img alt="" src="assets/images/long_adam_beg.png" style="width:100%; height:200px; float: left;">
         <div style="font-size:8em; float:left; font-family:cursive; margin-right:70px;">Trái </div>
         <div style="font-size:8em; float:left; font-family:cursive">
             <img alt="" src="assets/images/crypto/bitcoin_logo.png" style="max-width:150px; float: left;">
         </div>
-        <div style="font-size:8em; float:left; font-family:cursive;">ơ Cryptocurry</div>
+        <div style="font-size:8em; float:left; font-family:cursive;">ơ Cybercurrency</div>
     </head>
 
     <body>
-        <div id="payments" style="width:50%; float:left;">
+        <div id="payments" style="width:50%; float:left; font-size:5em;">
+        @@for(n <- 1 to 4) {
+            <span class="glyphicon glyphicon-music" aria-hidden="true"></span>
+        }
             <div id="bitcoin" style="width:100%; display:inline-block; padding:30px;">
                 <a href="https://blockchain.info/address/1Q9g516KM8DxQ7VHbMHmDLFuKEuQqBHL4v">
                     <img alt="" src="assets/images/crypto/bitcoin_mug.png" style="max-width:125px; float: left;">
@@ -39,4 +43,4 @@
 
     </body>
 
-</html>
+}
