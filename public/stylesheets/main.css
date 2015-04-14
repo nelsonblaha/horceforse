@@ -22,3 +22,7 @@ div#links {
     font-size:1em;
     text-align: center;
 }
+
+div#header div {
+    text-align: center;
+}

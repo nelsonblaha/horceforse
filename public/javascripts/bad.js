@@ -19,10 +19,11 @@ $(document).ready(function(){
                             "retro.jpg",
                             "zeta_cello.jpg",
                             "adam_weirdmouth.jpg",
-                            "observer_2bd.jpg"];
+                            "pump_setlist.jpg"];
 
     var posterImages = ["cleanup.jpg",
                         "gorilla.jpg",
+                        "observer_2bd.jpg",
                         "pizza_heads.jpg",
                         "republic_fest.jpg",
                         "sr_rainbow_pandas.jpg",
@@ -30,13 +31,18 @@ $(document).ready(function(){
                         "where_will_you_be.jpeg"];
 
     var otherImages = ["abduction.jpg",
+                       "tay_trompet.jpg",
                        "adam_glasses.jpg",
                        "ben.jpg",
                        "claw_yellow_shirt.jpg",
                        "grudge.jpg",
                        "scaryman_taylor.png",
                        "horse_fingers.jpg",
-                       "jackie_thumb.jpg"];
+                       "jackie_thumb.jpg",
+                       "taylor_feet.jpg",
+                       "adam_lot.jpg",
+                       "tay_lot.jpg",
+                       "sexy_cello.jpg"];
 
     var randomImageChange = function(category, images){
         $("img#"+category).attr("src", "assets/images/"+category+"/"+images.randomElement());
