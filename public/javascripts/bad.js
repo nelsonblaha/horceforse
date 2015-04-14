@@ -26,7 +26,8 @@ $(document).ready(function(){
                         "pizza_heads.jpg",
                         "republic_fest.jpg",
                         "sr_rainbow_pandas.jpg",
-                        "three_links.jpg"];
+                        "three_links.jpg",
+                        "where_will_you_be.jpeg"];
 
     var otherImages = ["abduction.jpg",
                        "adam_glasses.jpg",
@@ -47,6 +48,10 @@ $(document).ready(function(){
 
     $("img#showposters").click(function(e){
         randomImageChange("showposters", posterImages);
+    });
+
+    $("img#other").click(function(e){
+        randomImageChange("other", otherImages);
     });
 
     var changeAll = function(){
@@ -92,12 +97,20 @@ $(document).ready(function(){
     //    console.log(bad(element.text()));
     //}, 1000);
 
-    window.setInterval(function(){
-        var color = '#' + (function co(lor){   return (lor +=
-                [0,1,2,3,4,5,6,7,8,9,'a','b','c','d','e','f'][Math.floor(Math.random()*16)])
-            && (lor.length == 6) ?  lor : co(lor); })('');
-        $('#controls-wrapper').css("background-color", color);
-        $('h1').css("color", color);
-    }, 1000)
+    //window.setInterval(function(){
+    //    var color = '#' + (function co(lor){   return (lor +=
+    //            [0,1,2,3,4,5,6,7,8,9,'a','b','c','d','e','f'][Math.floor(Math.random()*16)])
+    //        && (lor.length == 6) ?  lor : co(lor); })('');
+    //    $('#controls-wrapper').css("background-color", color);
+    //    $('h1').css("color", color);
+    //
+    //    var i = Math.floor((Math.random() * 6) + 1);
+    //    var color = '#' + (function co(lor){   return (lor +=
+    //            [0,1,2,3,4,5,6,7,8,9,'a','b','c','d','e','f'][Math.floor(Math.random()*16)])
+    //        && (lor.length == 6) ?  lor : co(lor); })('');
+    //    $('div#music:nth-child(' + i + ')').css("color", color);
+    //}, 1000)
+
+
 
 });
