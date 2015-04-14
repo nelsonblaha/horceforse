@@ -35,6 +35,8 @@ $(document).ready(function(){
                        "tay_trompet.jpg",
                        "adam_glasses.jpg",
                        "ben.jpg",
+                       "lewey.jpg",
+                       "frisbee_golf.jpg",
                        "claw_yellow_shirt.jpg",
                        "grudge.jpg",
                        "scaryman_taylor.png",
