@@ -20,7 +20,7 @@ $(document).ready(function(){
                             "zeta_cello.jpg",
                             "adam_weirdmouth.jpg",
                             "pump_setlist.jpg",
-                            "different_weekend"];
+                            "different_weekend.jpg"];
 
     var posterImages = ["cleanup.jpg",
                         "gorilla.jpg",
