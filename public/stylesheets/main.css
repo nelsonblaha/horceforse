@@ -15,6 +15,7 @@ div#links {
 div#upfront {
     padding-left:10%;
     padding-right:10%;
+    min-height:95%;
 }
 
 div#upfront div {
