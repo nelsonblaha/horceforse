@@ -9,3 +9,4 @@ GET        /                    controllers.Application.index
 GET        /assets/*file        controllers.Assets.at(path="/public", file)
 GET        /crypto              controllers.Application.crypto
 GET        /calendar            controllers.Application.calendar
+GET        /press               controllers.Application.press

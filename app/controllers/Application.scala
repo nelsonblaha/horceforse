@@ -17,4 +17,7 @@ object Application extends Controller {
     Ok(views.html.calendar.render())
   }
 
+  def press = Action {
+    Ok(views.html.press.render())
+  }
 }
